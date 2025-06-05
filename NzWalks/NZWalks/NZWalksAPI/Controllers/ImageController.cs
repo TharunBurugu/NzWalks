@@ -24,6 +24,7 @@ namespace NZWalksAPI.Controllers
             if (ModelState.IsValid)
             {
                 // Convert Dto to Domain Model
+
                 var imageDomainModel = new Image
                 {
                     File = request.File,
